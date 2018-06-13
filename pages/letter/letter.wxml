@@ -1,0 +1,29 @@
+<!--pages/letter/letter.wxml-->
+<view>
+  <view class="panel">
+    <view class="letterBox">
+      <view class="content">
+        <view class="title">
+          <text class="tip">(向上滑动查看内容) \n \n\n\n</text>
+        </view>
+        <!--  内容  -->
+        <view class="main">
+          <text class="to">xxxx:</text>
+          <text class="mainbody">
+          x \n x \n x \n x \n 
+          x \n x \n x \n x \n
+          </text>
+        <view class="signFooter"> 
+          <view class="form">form:xxxx</view>
+          <view class="date">18.06.21</view>
+        </view>   
+        </view>
+      </view>
+    </view>
+  </view>
+
+<!--  底部  -->
+  <view class="footer">
+
+  </view>
+</view>

@@ -1,0 +1,41 @@
+/* pages/letter/letter.wxss */
+body{
+  font-size: 32rpx;
+}
+.panel{
+  width: 90%;
+  height: 720rpx; 
+  overflow-x: hidden;
+  overflow-y: auto;
+  border: 1px solid #000;
+  margin-left: 5%;  
+}
+.letterBox{
+  height: 100%;  
+  width: 100%;
+  vertical-align: top;
+}
+.content{
+  box-sizing: border-box;
+  padding: 30rpx;
+  margin-top: 400rpx;   
+  border: 1px solid #ccc;
+  box-shadow: 0 0 12rpx #979797;
+}
+.title{
+   text-align: center;
+}
+.tip{
+   white-space: normal;
+  color: #7bbfea;
+  font-size: 32rpx; 
+}
+.main{
+}
+.signFooter{
+   text-align: right; 
+}
+.to,.form,.date{
+    font-size: 32rpx;
+   color: #979797; 
+}
