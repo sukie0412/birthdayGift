@@ -1,19 +1,22 @@
 /* pages/page1/page1.wxss */
 .questionBox{
   width: 90%;
-  border:2rpx solid #979797;
+  border:2rpx solid #ccc;
+  box-shadow: 0 0 15rpx #ccc;
   background: #fff;
   box-sizing: border-box;
   padding: 30rpx;
   text-align: center;
   border-radius: 20rpx;
   margin-left: 5%;
+  margin-top: 250rpx;
 }
 .title{
   margin-top: 60rpx;
 }
 .answerBtn{
   margin-top:100rpx; 
+  margin-bottom: 100rpx;  
 }
 .answerBtn button:first-child{
   margin-bottom: 30rpx;

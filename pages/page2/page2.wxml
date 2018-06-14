@@ -1,0 +1,5 @@
+<!--pages/page2/page2.wxml-->
+<view>
+  <text id="te">{{ccc}}</text>
+  <button bindtap="tab">11</button>
+</view>

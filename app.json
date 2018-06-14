@@ -3,7 +3,8 @@
     "pages/index/index",
     "pages/logs/logs",
     "pages/letter/letter",
-    "pages/page1/page1"
+    "pages/page1/page1",
+    "pages/page2/page2"
   ],
   "window": {
     "backgroundTextStyle": "light",
