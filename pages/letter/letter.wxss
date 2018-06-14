@@ -1,14 +1,16 @@
 /* pages/letter/letter.wxss */
 body{
   font-size: 32rpx;
+  background: url(../../image/8548.png);
 }
 .panel{
-  width: 90%;
-  height: 720rpx; 
+  width: 98%;
+  height: 1334rpx; 
   overflow-x: hidden;
   overflow-y: auto;
-  border: 1px solid #000;
-  margin-left: 5%;  
+   /* border: 1px solid #000;  */
+  margin-left: 1%;   
+  /* margin-top: 300rpx; */
 }
 .letterBox{
   height: 100%;  
@@ -18,7 +20,7 @@ body{
 .content{
   box-sizing: border-box;
   padding: 30rpx;
-  margin-top: 400rpx;   
+  margin-top: 700rpx;   
   border: 1px solid #ccc;
   box-shadow: 0 0 12rpx #979797;
 }
@@ -38,4 +40,40 @@ body{
 .to,.form,.date{
     font-size: 32rpx;
    color: #979797; 
+}
+/* 底部 */
+.footer{
+  height: 400rpx;
+  width: 100%;
+  /* border: 1px solid blue; */
+  position: fixed;
+  bottom: 0;
+}
+.lTriangle{
+  width: 0;
+	height: 0;
+	border-top: 380rpx solid transparent;
+	border-left: 400rpx solid #7bbfea;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+.rTriangle{
+  width: 0;
+	height: 0;
+	border-top: 380rpx solid transparent;
+	border-right: 400rpx solid #7bbfea;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+.bTriangle{
+	border-bottom: 220rpx solid #9ed2f4;
+	border-left: 280rpx solid transparent;
+	border-right: 280rpx solid transparent;
+	height: 0;
+	width: 100px;
+  z-index: 2;
+  position: absolute;
+  bottom: 0;
 }

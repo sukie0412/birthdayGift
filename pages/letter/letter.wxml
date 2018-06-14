@@ -12,6 +12,7 @@
           <text class="mainbody">
           x \n x \n x \n x \n 
           x \n x \n x \n x \n
+          x \n x \n x \n x \n
           </text>
         <view class="signFooter"> 
           <view class="form">form:xxxx</view>
@@ -22,8 +23,13 @@
     </view>
   </view>
 
-<!--  底部  -->
+<!--  底部信封  -->
   <view class="footer">
-
+  <!--  左  -->
+    <text class="lTriangle"></text>
+  <!--  右  -->
+    <text class="rTriangle"></text>
+  <!--  下  -->
+    <text class="bTriangle"></text>
   </view>
 </view>
