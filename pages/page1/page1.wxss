@@ -1,0 +1,20 @@
+/* pages/page1/page1.wxss */
+.questionBox{
+  width: 90%;
+  border:2rpx solid #979797;
+  background: #fff;
+  box-sizing: border-box;
+  padding: 30rpx;
+  text-align: center;
+  border-radius: 20rpx;
+  margin-left: 5%;
+}
+.title{
+  margin-top: 60rpx;
+}
+.answerBtn{
+  margin-top:100rpx; 
+}
+.answerBtn button:first-child{
+  margin-bottom: 30rpx;
+}

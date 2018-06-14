@@ -16,11 +16,21 @@
   color: #aaa;
 }
 
+.usertext{
+  margin-top: 300rpx;
+  
+}
+
 .userbtn {
-  margin-top: 200px;
+  margin-top: 100rpx;
 }
 .userbtn button{
-  background: #7bbfea;
+  background: #ccc;
   color: #fff;
-  width: 200px;
+  width: 120px;
+  display: inline-block;
+}
+.userbtn button:first-child{
+  background: #7bbfea;
+  margin-right: 30rpx;
 }
