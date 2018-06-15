@@ -11,6 +11,6 @@
   </view>
   <view class="userbtn">
     <button bindtap='bindViewTap'>你好呀</button>
-    <button bindtap='bindViewTap'>我不好</button>
+    <button bindtap='bindViewTap2'>我不好</button>
   </view>
 </view>

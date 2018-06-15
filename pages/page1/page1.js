@@ -1,13 +1,31 @@
 // pages/page1/page1.js
+var app = getApp()
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-  
+    //可以通过hidden是否隐藏弹出框的属性，来指定那个弹出框
+    hiddenmodalput:true,
   },
-
+    modalinput:function(){
+      this.setData({
+        hiddenmodalput: !this.data.hiddenmodalput 
+      })
+    },
+    //取消按钮
+    cancel:function(){
+      this.setData({
+        hiddenmodalput:true
+      })
+    },
+    //确认按钮
+    confirm:function(){
+      this.setData({
+        hiddenmodalput:true
+      })
+    },
   /**
    * 生命周期函数--监听页面加载
    */
@@ -19,48 +37,6 @@ Page({
    * 生命周期函数--监听页面初次渲染完成
    */
   onReady: function () {
-  
-  },
-
-  /**
-   * 生命周期函数--监听页面显示
-   */
-  onShow: function () {
-  
-  },
-
-  /**
-   * 生命周期函数--监听页面隐藏
-   */
-  onHide: function () {
-  
-  },
-
-  /**
-   * 生命周期函数--监听页面卸载
-   */
-  onUnload: function () {
-  
-  },
-
-  /**
-   * 页面相关事件处理函数--监听用户下拉动作
-   */
-  onPullDownRefresh: function () {
-  
-  },
-
-  /**
-   * 页面上拉触底事件的处理函数
-   */
-  onReachBottom: function () {
-  
-  },
-
-  /**
-   * 用户点击右上角分享
-   */
-  onShareAppMessage: function () {
   
   }
 })

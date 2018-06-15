@@ -3,8 +3,11 @@
   <view class="questionBox">
     <view class="title">xxxxx</view>
     <view class="answerBtn">
-      <button>xx1</button>
-      <button>xx1</button>
+      <button bindtap="modalinput">我记得的！</button>
+      <modal hidden="{{hiddenmodalput}}" title="请输入日期" confirm-text="提交" cancel-text="取消" bindcancel="cancel" bindconfirm="confirm">
+        <input type="text" placeholder='请输入内容' auto-focus/>
+      </modal>
+      <button>我不知道哇</button>
     </view>
   </view>
 </view>
