@@ -24,6 +24,9 @@ Page({
     confirm:function(){
       this.setData({
         hiddenmodalput:true
+      }),
+      wx.navigateTo({
+        url: '../letter/letter'
       })
     },
   /**
