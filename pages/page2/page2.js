@@ -1,5 +1,6 @@
 // pages/page2/page2.js
 var result = '';
+// var text2 = app.text;
 Page({
 
   /**
@@ -16,9 +17,12 @@ Page({
     this.tab('2018-08-21');
     // console.log(111, result)
     var that = this;
+    var text = wx.getStorageSync('text');
     that.setData({
-      ccc:result
+      ccc : result,
+      text: text
     })
+    console.log(121,text)
   },
 
   /**

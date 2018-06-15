@@ -1,6 +1,7 @@
 <!--pages/page2/page2.wxml-->
 <view>
   <text id="te" bindgetuserinfo="ttt">{{ccc}}</text>
+  <text>{{text}}</text>
   <button bindtap="tab">11</button>
   <button bindtap="backHome">返回首页</button>
 </view>

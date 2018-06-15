@@ -1,5 +1,7 @@
 // pages/page1/page1.js
-var app = getApp()
+var app = getApp();
+var text = getApp().text;
+
 Page({
 
   /**
@@ -22,11 +24,31 @@ Page({
     },
     //确认按钮
     confirm:function(){
+      wx.setStorageSync('text', this.data.text);
+      wx.switchTab({
+        url: '../page2/page2'
+      }),
       this.setData({
         hiddenmodalput:true
       }),
+      // if(this.data.text1.length == 0){
+      //   this.setData({
+      //     infoMess:'想为空蒙混过去吗'
+      //   })
+      // },
+    wx.navigateTo({
+      url: '../page2/page2'
+    })
+    },
+    getValue:function(e){
+      this.setData({
+        text1:e.detail.value
+      })
+      console.log(0,text1)
+    },
+    bindViewTap:function(){
       wx.navigateTo({
-        url: '../letter/letter'
+        url: '../index/index',
       })
     },
   /**

@@ -5,9 +5,9 @@
     <view class="answerBtn">
       <button bindtap="modalinput">我记得的！</button>
       <modal hidden="{{hiddenmodalput}}" title="那你输入日期" confirm-text="好了！" cancel-text="怂包按取消" bindcancel="cancel" bindconfirm="confirm">
-        <input type="text" placeholder='(格式：1970.01.01)' auto-focus/>
+        <input type="text" name="text" bindtap='getValue' placeholder='(格式：1970.01.01)' auto-focus/>
       </modal>
-      <button bindtap=''>我不知道哇</button>
+      <button bindtap='bindViewTap'>我不知道哇</button>
     </view>
   </view>
 </view>
