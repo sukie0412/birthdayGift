@@ -1,7 +1,7 @@
 // pages/page1/page1.js
 var app = getApp();
 var text = getApp().text;
-
+// var input = e.detail.value;
 Page({
 
   /**
@@ -24,6 +24,12 @@ Page({
     },
     //确认按钮
     confirm:function(){
+      
+      if (input == 0) {
+        infoMess: 'xxx'
+      } else {
+
+      }
       wx.setStorageSync('text', this.data.text);
       wx.switchTab({
         url: '../page2/page2'
@@ -37,10 +43,11 @@ Page({
       //   })
       // },
     wx.navigateTo({
-      url: '../page2/page2'
+      // url: '../page2/page2'
     })
     },
     getValue:function(e){
+
       this.setData({
         text1:e.detail.value
       })
