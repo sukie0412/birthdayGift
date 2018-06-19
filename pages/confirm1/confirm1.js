@@ -32,7 +32,7 @@ Page({
       }
       wx.setStorageSync('text', this.data.text);
       wx.switchTab({
-        url: '../page2/page2'
+        url: '../confirm2/confirm2'
       }),
       this.setData({
         hiddenmodalput:true

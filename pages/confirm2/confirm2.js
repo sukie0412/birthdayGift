@@ -1,4 +1,4 @@
-// pages/page2/page2.js
+// pages/confirm2/confirm2.js
 var result = '';
 // var text2 = app.text;
 Page({

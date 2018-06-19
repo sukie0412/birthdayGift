@@ -3,8 +3,9 @@
     "pages/index/index",
     "pages/logs/logs",
     "pages/letter/letter",
-    "pages/page1/page1",
-    "pages/page2/page2"
+    "pages/confirm1/confirm1",
+    "pages/confirm2/confirm2",
+    "pages/confirm3/confirm3"
   ],
   "window": {
     "backgroundTextStyle": "light",
