@@ -1,2 +1,10 @@
 <!--pages/confirm3/confirm3.wxml-->
-<text>pages/confirm3/confirm3.wxml</text>
+<view>
+  <view class="usertext">
+    <text class="user-text">{{text}}</text>
+  </view>
+  <view class="userbtn">
+    <button bindtap='bindViewTap'>你好呀</button>
+    <button bindtap='bindViewTap2'>我不好</button>
+  </view>
+</view>

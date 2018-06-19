@@ -1,1 +1,15 @@
 /* pages/confirm3/confirm3.wxss */
+
+.userbtn {
+  margin-top: 100rpx;
+}
+.userbtn button{
+  background: #ccc;
+  color: #fff;
+  width: 120px;
+  display: inline-block;
+}
+.userbtn button:first-child{
+  background: #7bbfea;
+  margin-right: 30rpx;
+}
