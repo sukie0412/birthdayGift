@@ -1,5 +1,6 @@
 <!--index.wxml-->
 <view class="container">
+<image class="index-img" src='../../image/8e48.png'></image>
   <view class="box">
     跟我聊天
   </view>
