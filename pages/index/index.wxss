@@ -8,11 +8,8 @@
   background:#ccc;
   border-radius: 16rpx;
 }
-.box:last-child{
-  margin-top: 60rpx; 
-}
-.box:first-child{
-   margin-top: 0rpx; 
+.top{
+   margin-bottom:20px; 
 }
 .index-img{
   width: 100px;

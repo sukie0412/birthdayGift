@@ -10,9 +10,9 @@ Page({
     canIUse: wx.canIUse('button.open-type.getUserInfo')
   },
   //事件处理函数
-  bindViewTap: function() {
+  chat: function() {
     wx.navigateTo({
-      url: '../page1/page1'
+      url: '../confirm1/confirm1'
     })
   },
   bindViewTap2: function () {

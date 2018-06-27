@@ -1,7 +1,7 @@
 <!--index.wxml-->
 <view class="container">
 <image class="index-img" src='../../image/8e48.png'></image>
-  <view class="box">
+  <view class="box top" bindtap='chat'>
     跟我聊天
   </view>
   <view class="box">

@@ -21,3 +21,18 @@
 .answerBtn button:first-child{
   margin-bottom: 30rpx;
 }
+
+input{
+  border:1px solid #ccc;
+  height: 35px;
+  margin-top: 50px;
+}
+.submit{
+  margin-top: 25px;
+  height: 30px;
+  width: 180px;
+  line-height: 30px;
+  background:green;
+  color:#fff;
+  font-size: 14px;
+}

@@ -1,13 +1,15 @@
 <!--pages/page1/page1.wxml-->
 <view>
   <view class="questionBox">
-    <view class="title">xxxxx</view>
-    <view class="answerBtn">
+    <view class="title">你好呀，我是小可爱，我要验证身份才知道你是不是我要等的人哇，所以告诉我你是谁咯</view>
+    <input placeholder='点击输入告诉我'  value=""></input>
+    <button class="submit" bindtap="submit">我填好了，提交</button>
+    <!-- <view class="answerBtn">
       <button bindtap="modalinput">我记得的！</button>
       <modal hidden="{{hiddenmodalput}}" title="那你输入日期" confirm-text="好了！" cancel-text="怂包按取消" bindcancel="cancel" bindconfirm="confirm">
         <input type="text" name="text" bindtap='getValue' placeholder='(格式：1970.01.01)' auto-focus/>
       </modal>
       <button bindtap='bindViewTap'>我不知道哇</button>
-    </view>
+    </view> -->
   </view>
 </view>

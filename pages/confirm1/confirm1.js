@@ -26,9 +26,9 @@ Page({
     confirm:function(){
       
       if (input == 0) {
-        infoMess: 'xxx'
+        infoMess: '你还没告诉我你是谁呢！'
       } else {
-
+        this.submit();
       }
       wx.setStorageSync('text', this.data.text);
       wx.switchTab({
